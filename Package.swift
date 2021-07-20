@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "FlagPhoneNumber", targets: ["FlagPhoneNumber"])
     ],
     targets: [
-        .target(name: "FlagPhoneNumber", path: "Sources",)
+        .target(name: "FlagPhoneNumber", path: "Sources/",)
     ],
     exclude: ["FlagPhoneNumber.podspec", "Screenshot", "ExampleOBJC", "ExampleCocoapods", "ExampleCarthage"]
 )
