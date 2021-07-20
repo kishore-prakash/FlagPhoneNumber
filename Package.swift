@@ -8,5 +8,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "FlagPhoneNumber", path: "Sources",)
-    ]
+    ],
+    exclude: ["FlagPhoneNumber.podspec", "Screenshot", "ExampleOBJC", "ExampleCocoapods", "ExampleCarthage"]
 )
