@@ -7,6 +7,6 @@ let package = Package(
         .library(name: "FlagPhoneNumber", targets: ["FlagPhoneNumber"])
     ],
     targets: [
-        .target(name: "FlagPhoneNumber", dependencies: [])
+        .target(name: "FlagPhoneNumber", path: "Sources",)
     ]
 )
